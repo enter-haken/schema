@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# first check if `dot` is installed
+# https://stackoverflow.com/questions/592620/check-if-a-program-exists-from-a-bash-script
+command -v dot >/dev/null 2>&1 || { echo >&2 "command 'dot' is required. see https://en.wikipedia.org/wiki/DOT_(graph_description_language)"; exit 1; }
+
+
 # https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
 
 POSITIONAL=()

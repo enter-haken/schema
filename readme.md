@@ -1,8 +1,6 @@
 schema
 =======
 
-## schema.sh
-
 generate erm like database schema from postgresql db
 
     ./schema.sh | dot -Tpng > schema.png
@@ -10,6 +8,11 @@ generate erm like database schema from postgresql db
 * `-u|--user` database user (default: `postgres`)
 * `-d|--database` database name (default: `postgres`)
 * `-s|--schema` database schema (default: `public`)
+
+## requirements
+
+* PostgreSQL must be up and running
+* `dot` must be installed (see [graphviz](https://www.graphviz.org/) for further reading)
 
 Contact
 -------
