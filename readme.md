@@ -27,4 +27,4 @@ Contact
 
 Jan Frederik Hake, <jan_hake@gmx.de>. [@enter_haken](https://twitter.com/enter_haken) on Twitter.
 
-[dbinit]: https://github.com/enter-haken/scripts/blob/master/db_init.sh#L103
+[dbinit]: https://github.com/enter-haken/scripts/blob/master/init_db.sh#L103
